@@ -1,0 +1,17 @@
+#spring:
+#  cloud:
+#    nacos:
+#      discovery:
+#        # 服务注册地址
+#        server-addr: 10.0.10.31:8848
+#        namespace: 6b5e989c-ad74-4363-b488-9c221bea9913
+#        ip: 10.0.10.70
+#      config:
+#        # 配置中心地址
+#        server-addr: 10.0.10.31:8848
+#        namespace: 6b5e989c-ad74-4363-b488-9c221bea9913
+#        # 配置文件格式
+#        file-extension: yml
+#        # 共享配置
+#        shared-configs:
+#          - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
